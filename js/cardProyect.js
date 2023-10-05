@@ -27,7 +27,7 @@ const dataProyect = [
         "image":"https://gruporobles.com.pe/storage/proyectos/fundo-valentina/k7dXh.webp"
     },
     {
-        "title":"Tierra de Reyes II",
+        "title":"EL GOLF DE POSEIDÓN",
         "ubicacion": "kM 76 de la panemericana Norte",
         "precio": 500,
         "metraje":200,

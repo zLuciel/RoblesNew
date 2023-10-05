@@ -200,7 +200,7 @@
     <!--Section Galeria  -->
     <section id="galería" class="container-xl py-5">
         <span>
-            <h2 style="font-weight: 700;"class="color-green-2" >Fotos y videos</h2>
+            <h2 style="font-weight: 700;" class="color-green-2">Fotos y videos</h2>
             <p class="sub-title-section">Explora la magia de la naturaleza en cada imagen</p>
         </span>
 
@@ -225,9 +225,10 @@
             </div>
             <div id="video-proyect" class="d-none video-proyect position-relative">
                 <button id="play-video-galery" class="btn position-absolute top-50 start-50 translate-middle z-2 play-galery" type="button"><i class="text-white fa-brands fa-youtube"></i></button>
-                <img class="img-fluid" src="https://gruporobles.com.pe/storage/banners/new-vo.webp" alt="">
-                <iframe id="video-youtube-galery" class="desactive-youtube" src="https://www.youtube.com/embed/GmG3eReHL6o?si=nihTk-DM9ujQ2bFp" title="YouTube video player" frameborder="0" allowfullscreen>
-                </iframe>
+                <img id="image-video-proyect" class="img-fluid" src="https://gruporobles.com.pe/storage/banners/new-vo.webp" alt="">
+                <div id="video-youtube-galery" class="d-none">
+                    <div id="youtube-frame-proyect"></div>
+                </div>
             </div>
         </div>
     </section>
@@ -285,7 +286,7 @@
     ?>
     <!-- modal slider -->
     <div id="container-modal-swiper" class="modal-swiper d-none-swiper container-xxl">
-     <span class="position-absolute  end-close " id="close-modal"><i class="text-white fs-3 fa-regular fa-circle-xmark"></i></span>
+        <span class="position-absolute  end-close " id="close-modal"><i class="text-white fs-3 fa-regular fa-circle-xmark"></i></span>
         <div class="container-md mid-slider">
             <div class="swiper-modal">
                 <div class="swiper-wrapper" id="modal-proyect-wrapper">
@@ -337,8 +338,10 @@
         },
     });
 </script>
-<script src="js/modalHeaderEffect.js"></script>
-
+<script src="js/modalHeaderEffect.js">
+</script>
 <script src="js/galery.js"></script>
+
+<script src="https://www.youtube.com/iframe_api"></script>
 
 </html>

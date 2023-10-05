@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Yrsa:ital,wght@0,400;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+  font-family: "Montserrat Black";
+  /* src: url("../assets/font/Montserrat/Montserrat-ExtraBold.otf")*/
+  src: url("../font/Montserrat/Montserrat-SemiBold.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Raleway Bold";
+  src: url("../font/Raleway/Raleway-SemiBold.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assets/font/Montserrat/Montserrat") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Raleway Regular";
+  src: url("../assets/fonts/Raleway/Raleway-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Raleway Medium";
+  src: url("../fonts/Raleway/Raleway-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Raleway Black";
+  src: url("../assets/fonts/Raleway/Raleway-Black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.family-700-one,h2,h4 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.raleway-medium,
+p {
+  font-family: 'Poppins';
+  font-weight: 400;
+}
+.raleway-bold {
+  font-family: "Raleway Bold";
+}
+

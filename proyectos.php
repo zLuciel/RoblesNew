@@ -26,7 +26,7 @@
         <!--container  filtrado  -->
         <div class="shadow-filter-proyect">
             <span class="d-flex mb-3 family-700-one">Encuentra el proyecto ideal</span>
-            <div class="row row-cols-3 g-4 align-items-center">
+            <div class="row row-cols-1  row-cols--xl-3 row-cols-lg-3 row-cols-md-2 g-4 align-items-center">
                 <label class="d-flex flex-column gap-1 border-end px-4 family-700-one">
                     ¿Qué ubicación estás buscando?
                     <div class="d-flex gap-2 align-items-center">
@@ -63,9 +63,10 @@
             </div>
         </div>
 
+        <!-- proyectos container grid -->
         <section class="container-xl py-4">
-            <div id="container-proyect-filter" class="row row-cols-3 g-4">
-               
+            <div id="container-proyect-filter" class="row row-cols-1 row-cols-xl-3 row-cols-lg-3 row-cols-md-2  row-cols-sm-2 g-4">
+               <!-- renderizar proyecto dinamicos -->
             </div>
         </section>
     </section>

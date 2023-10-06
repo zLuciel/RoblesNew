@@ -1,4 +1,4 @@
-<header  class="header position-sticky  bg-white top-0  container-fluid w-100  d-flex flex-column justify-content-between align-items-center">
+<header  class="header position-sticky  bg-terce top-0  container-fluid w-100  d-flex flex-column justify-content-between align-items-center">
   <div class="container-xl d-flex   justify-content-between align-items-center index-header">
     <img src="assets/images/logo/logo-color.svg" alt="logo-robles">
     <!-- btn hamburger -->
@@ -8,14 +8,14 @@
     <!-- navegacion pc -->
     <nav class="d-xxl-flex d-xl-flex d-md-flex  d-none  justify-content-center align-items-center gap-5">
       <ul class="list-header  list-group list-group-horizontal-xl  list-group-horizontal-md list-group-horizontal-xxl ">
-        <li><a href="index.php">Inicio</a></li>
-        <li id="view-propiedades" class="view-propiedades"><a href="proyectos.php">Proyectos <i class="fa-solid fa-angle-down"></i></a></li>
-        <li><a href="conocenos.php">Conócenos</a></li>
-        <li><a href="newBlog.php">Blog</a></li>
+        <li><a href="index.php" class="text-white">Inicio</a></li>
+        <li id="view-propiedades" class="view-propiedades"><a href="proyectos.php" class="text-white">Proyectos <i class="fa-solid fa-angle-down"></i></a></li>
+        <li><a href="conocenos.php" class="text-white">Conócenos</a></li>
+        <li><a href="newBlog.php" class="text-white">Blog</a></li>
       </ul>
       <a href="contactanos.php" style="text-decoration: none;color:black" 
       type="button" class="btn raleway-bold py-2 btn-link 
-      border border-1 border-dark">Contáctanos</a>
+      border border-1 border-white bg-white">Contáctanos</a>
     </nav>   
   </div> 
 

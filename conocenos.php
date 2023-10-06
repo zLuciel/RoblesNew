@@ -36,10 +36,10 @@
 
 
     <!-- section vision mision -->
-    <section class="container-xl d-flex justify-content-start mb-5">
+    <section class="container-xl container-lg container-md container-sm d-flex justify-content-start mb-5">
         <!-- w-75 back -->
         <div class=" text-center  position-relative container-vision
-         text-white w-100 row row-cols-3 g-2 justify-content-between ">
+         text-white w-100 row row-cols-1 row-cols-xl-3  row-cols-lg-3 row-cols-md-3 g-2 justify-content-between ">
             <div class="px-3 border-end">
                 <h2 class="family-700-one">Vision</h2>
                 <p class="mb-0">Ofrecer las mejores soluciones inmobiliarias a nuestros clientes e inversionistas, garantizando arquitectura de vanguardia, espacios modernos y un concepto eco-friendly.</p>
@@ -64,8 +64,8 @@
                 Promotion
             </h2>
             <div class="row g-4">
-                <div class="col-5">
-                    <div class="d-flex gap-3 flex-column">
+                <div class="col-xl-5 col-lg-5">
+                    <div class="row row-cols-1 g-3">
                         <span class="d-flex gap-3  flex-column">
                             <span class="d-flex gap-3 align-items-center "><i class="fa-solid fa-people-arrows text-green fs-4"></i>
                                 <h4 class="mb-0">Creatividad</h4>
@@ -86,7 +86,7 @@
                         </span>
                     </div>
                 </div>
-                <div class="col-7 align-self-center">
+                <div class="col-xl-7 col-lg-7  align-self-center">
                     <div class="swiper">
                         <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
@@ -148,13 +148,13 @@
     <!-- preguntas -->
     <section class="container-fluid py-5 mb-4">
         <div class="container-xl">
-            <div class="row g-4">
-                <div class="col-6 ">
+            <div class="row  row-cols-xl-2 row-cols-lg-2 g-4">
+                <div >
                     <div class="position-relative container-video-faq d-flex justify-content-center align-items-center">
                         <i style="font-size: 4rem;" class="fa-brands fa-youtube text-white"></i>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="order-md-first">
                     <h2 style="font-weight: 700;" class="family-700-one color-green-2">Increase Your Revenue bY
                         Attacting new Visitor. Builds Brand Loyality And Width Hot Offers &
                         Promotion

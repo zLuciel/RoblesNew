@@ -41,7 +41,7 @@
                     <button type="button" class="btn px-4 bg-white text-nowrap py-2 raleway-medium fs-6 text-green shadow" style="height: max-content;">Descargar brochurer <i class="fa-solid fa-download"></i></button>
                 </div>
                 <!-- section main cuadro -->
-                <div class="row raleway-medium container-grid-main-cuadro  fs-3 py-3 row-cols-4 bg-white  justify-content-between  rounded-2 ">
+                <div class="row row-cols-2 row-cols-xl-4  row-cols-lg-4 row-cols-md-3 raleway-medium container-grid-main-cuadro  fs-3 py-3  bg-white  justify-content-between  rounded-2 ">
                     <div class="d-flex gap-2 flex-column  align-items-center">
                         <img style="height: 30px; width:30px" src="https://elabra.pe/wp-content/uploads/2023/06/lotes.svg" alt="">
                         <h6 class="text-gris fs-6">19 lotes desde 425 m2</h6>
@@ -66,13 +66,13 @@
     <!-- SECTION SUB-NAV -->
     <div class="container-xxl raleway-medium bg-gris position-sticky top-0" style="z-index: 4;">
         <div class="container-xl sub-nav-container ">
-            <div class="d-flex gap-1 navegador-proyect  align-items-center py-2" style="width: 700px;">
+            <div class="d-flex flex-wrap gap-1 navegador-proyect  align-items-center py-2" style="max-width: 700px;">
                 <div class="sub-nav border-end border-dark px-3 position-relative link-proyect">Ubicación</div>
                 <div class="sub-nav border-end border-dark px-3 position-relative">Acerca</div>
                 <div class="sub-nav border-end border-dark px-3 position-relative">Galería</div>
                 <div class="sub-nav border-end border-dark px-3 position-relative">Planos</div>
                 <div class="sub-nav border-end border-dark px-3 position-relative">Conoce la zona</div>
-                <div class="sub-nav border-end border-dark px-3 position-relative">El Abra</div>
+                <div class="sub-nav px-3 position-relative">El Abra</div>
             </div>
         </div>
     </div>
@@ -124,7 +124,7 @@
                 <p class="sub-title-section">Garantía para una inversión segura y rentable</p>
             </span>
             <!-- iconos infon -->
-            <div class="row row-cols-4 gy-3 width-max-proyect">
+            <div class="row row-cols-xl-4 row-cols-md-3 row-cols-sm-2 gy-3 width-max-proyect">
 
                 <div>
                     <div class="d-flex h-100 flex-column gap-2 align-items-center bg-white py-3 rounded-2">
@@ -243,7 +243,7 @@
 
         <div class="width-max-proyect">
 
-            <div class="galery-bento-grid">
+            <div class="galery-bento-grid w-100">
                 <div class="image1 slider-bento">
                     <img class="img-bento rounded-2" src="https://elabra.pe/wp-content/uploads/2023/06/Casa-Museo.jpg" alt="">
                 </div>
@@ -276,7 +276,7 @@
     </section>
     <!-- CONTACT FORM -->
     <?php
-    $class = "position-fixed bottom-0 end-0";
+    $class = "position-fixed bottom-0 end-0  d-xl-flex d-md-none d-none";
     include_once 'components/formulario.php';
     ?>
 

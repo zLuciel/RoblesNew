@@ -8,6 +8,7 @@
 .color-green-2 {
   color: var(--color-primary-oscuro);
 }
+
 body {
   background: #fff !important;
   min-height: 100vh;
@@ -80,7 +81,7 @@ a {
   bottom: -8px;
   height: 2.3px;
   transform: skewX(-20deg);
-  background: var(--color-primary);
+  background: white;
   animation: headerAnimate 0.35s ease-in forwards;
 }
 
@@ -102,8 +103,8 @@ a {
 .main {
   color: white;
   width: 100%;
-  min-height: 80vh;
-  height: calc(100vh - 70px);
+  min-height: calc(100vh - 70px);
+  /*height: 120vh; celular*/
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(https://amersursac.com/wp-content/uploads/2023/07/banner-principal.jpg)
       center center/cover no-repeat;
@@ -446,4 +447,13 @@ footer {
     font-size: 1.2rem;
     color: rgb(255, 255, 255);
   }
+}
+
+
+@media (max-width: 647px){
+
+.main h1 {
+  margin-bottom: 50px;
+  font-size: 3.3rem;
+}
 }

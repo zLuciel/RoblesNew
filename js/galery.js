@@ -38,7 +38,7 @@ function onYouTubeIframeAPIReady() {
     width: "640",
     videoId: "GmG3eReHL6o",
     playerVars: {
-      autoplay: 1, // 0 para no reproducir automáticamente
+      autoplay: 0, // 0 para no reproducir automáticamente
       controls: 1,
     },
     events: {
@@ -49,7 +49,9 @@ function onYouTubeIframeAPIReady() {
 }
 
 // 4. The API will call this function when the video player is ready.
-function onPlayerReady(event) {}
+function onPlayerReady(event) {
+  player.stopVideo();
+}
 
 var done = false;
 

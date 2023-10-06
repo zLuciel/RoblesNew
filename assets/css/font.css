@@ -46,7 +46,7 @@
 }
 
 .raleway-medium,
-p {
+p,li,a {
   font-family: 'Poppins';
   font-weight: 400;
 }

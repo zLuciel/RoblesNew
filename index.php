@@ -28,8 +28,8 @@
   ?>
 
   <!-- Main -->
-  <main class="main container-fluid">
-    <div class="container-xl container-lg container-md container-sm d-flex align-items-center" style="height: 100%;">
+  <main class="main container-fluid d-flex align-items-center">
+    <div class="container-xl container-lg container-md container-sm d-flex align-items-center " >
       <div class="row g-4 justify-content-center align-items-center">
         <div class="col-xl-6">
           <h1 class="family-700-one">Tu <br> propiedad sin fronteras</h1>

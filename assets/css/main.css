@@ -24,7 +24,11 @@ html,
 a {
   text-decoration: none;
 }
-
+.img-fluid-cover{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .container-redes {
   right: 20px !important;
 }

@@ -21,7 +21,7 @@
     include_once 'header.php';
     ?>
     <article class="container-xxl container-xl">
-        <div class="row row-cols-2">
+        <div class="row row-cols-1 row-cols-xl-2 row-cols-lg-2 row-cols-md-1">
 
             <div>
                 <div class="position-relative picture-blog-principal">
@@ -43,7 +43,7 @@
             </div>
 
 
-            <div class="d-flex flex-column gap-5">
+            <div class="d-none d-xl-flex d-lg-flex   flex-column gap-5">
                 <?php
 
                 for ($i = 0; $i < 3; $i++) {
@@ -58,7 +58,7 @@
                 <h2>Últimas actualizaciones</h2>
                 <label><input type="search" placeholder="Buscar..."></label>
             </div>
-            <div class="row row-cols-4 g-5">
+            <div class="row row-cols-xl-4 row-cols-lg-3 row-cols-md-3 row-cols-sm-2 g-5">
                 <?php
                 $cardClass = "flex-column";
                 for ($i = 0; $i < 8; $i++) {

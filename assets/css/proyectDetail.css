@@ -196,16 +196,3 @@
   right: 20px !important;
   top: 20px !important;
 }
-@media (max-width: 741px) {
-  .galery-bento-grid {
-    grid-template-areas:
-      "image1 image2"
-      "image3 image2"
-      "image3  image4";
-      grid-template-areas:
-      "image1 image2"
-      "image3 image2"
-      "image3  image4";
-    gap: 15px 20px;
-  }
-}

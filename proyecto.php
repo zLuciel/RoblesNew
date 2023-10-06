@@ -36,9 +36,10 @@
                     <h1 style="font-weight: 500;" class="raleway-medium">EL ABRA</h1>
                 </div>
 
-                <div class="container-title-info-main d-flex text-white justify-content-between align-items-center">
+                <div class="container-title-info-main d-flex text-white flex-column flex-xl-row 
+                flex-lg-row flex-sm-column justify-content-xl-between align-items-xl-center">
                     <h2 style="font-weight: 700;" class="text-start">Desconectate de la ciudad</h2>
-                    <button type="button" class="btn px-4 bg-white text-nowrap py-2 raleway-medium fs-6 text-green shadow" style="height: max-content;">Descargar brochurer <i class="fa-solid fa-download"></i></button>
+                    <button type="button" class="btn px-4 bg-white text-nowrap py-2 raleway-medium fs-6 text-green shadow" style="height: max-content; width:max-content">Descargar brochurer <i class="fa-solid fa-download"></i></button>
                 </div>
                 <!-- section main cuadro -->
                 <div class="row row-cols-2 row-cols-xl-4  row-cols-lg-4 row-cols-md-3 raleway-medium container-grid-main-cuadro  fs-3 py-3  bg-white  justify-content-between  rounded-2 ">
@@ -66,7 +67,7 @@
     <!-- SECTION SUB-NAV -->
     <div class="container-xxl raleway-medium bg-gris position-sticky top-0" style="z-index: 4;">
         <div class="container-xl sub-nav-container ">
-            <div class="d-flex flex-wrap gap-1 navegador-proyect  align-items-center py-2" style="max-width: 700px;">
+            <div class="d-flex flex-wrap navegador-proyect align-items-center py-2 px-0" style="max-width: 700px;gap:20px 0">
                 <div class="sub-nav border-end border-dark px-3 position-relative link-proyect">Ubicación</div>
                 <div class="sub-nav border-end border-dark px-3 position-relative">Acerca</div>
                 <div class="sub-nav border-end border-dark px-3 position-relative">Galería</div>
@@ -124,7 +125,7 @@
                 <p class="sub-title-section">Garantía para una inversión segura y rentable</p>
             </span>
             <!-- iconos infon -->
-            <div class="row row-cols-xl-4 row-cols-md-3 row-cols-sm-2 gy-3 width-max-proyect">
+            <div class="row row-cols-2 row-cols-xl-4 row-cols-md-3 row-cols-sm-2 gy-3 width-max-proyect">
 
                 <div>
                     <div class="d-flex h-100 flex-column gap-2 align-items-center bg-white py-3 rounded-2">

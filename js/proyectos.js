@@ -22,6 +22,7 @@ btnBuscarProyect.addEventListener("click", (e) => {
     containerProyect.removeChild(containerProyect.firstChild);
   }
 
+  // filtrado en prueba
   dataProyect.forEach((card) => {
     if (
       card.tipo == valorUbicacionProyect &&

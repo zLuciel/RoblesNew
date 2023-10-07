@@ -1,6 +1,6 @@
 <header  class="header position-sticky  bg-terce top-0  container-fluid w-100  d-flex flex-column justify-content-between align-items-center">
   <div class="container-xl d-flex   justify-content-between align-items-center index-header">
-    <img src="assets/images/logo/logo-color.svg" alt="logo-robles">
+    <img src="https://gruporobles.com.pe/img/logo/logo-color.svg" alt="logo-robles">
     <!-- btn hamburger -->
     <span type="button" id="btn-hamburger" class="d-xxl-none d-xl-none d-md-none d-sm-flex gap-3">
       Menu <i class="fa-solid fa-bars fs-2"></i>

@@ -14,7 +14,7 @@ function renderCardProyect(card) {
         </div> </a>
       `;
       // styled new card
-      ElementCard.children[0].children[0].style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)),url(${card.image})`;
+      ElementCard.children[0].children[0].style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),url(${card.image})`;
       ElementCard.children[0].children[0].style.backgroundPosition = "center center";
       ElementCard.children[0].children[0].style.backgroundSize = "cover";
       ElementCard.children[0].children[0].style.backgroundRepeat = "no repeat"

@@ -10,7 +10,7 @@
 }
 
 body {
-  background: #fff !important;
+  background: white !important;
   min-height: 100vh;
   overflow-x: hidden;
 }
@@ -147,7 +147,7 @@ a {
   cursor: pointer;
   position: relative;
   /*width: 358px;*/
-  height: 620px;
+  height: 540px; /*620*/
   transition: all 0.6s ease-in-out;
 }
 
@@ -210,7 +210,7 @@ a {
 }*/
 /**Style experencia*/
 .container-experiencia {
-  padding: 100px 0;
+  padding: 40px 0;
 }
 .container-experiencia img {
   width: 80%;

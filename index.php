@@ -164,7 +164,7 @@
       },
       loop: true,
       spaceBetween: 30,
-      slidesPerView: 3,
+      slidesPerView: 1,
       // Navigation arrows
       pagination: {
         el: '.swiper-pagination',

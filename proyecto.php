@@ -86,7 +86,7 @@
                 <p class="sub-title-section">La mejor zona para vivir</p>
             </span>
             <!-- iconos infon -->
-            <div class="row row-cols-2 py-2 mb-4 gy-4 width-max-proyect align-items-center justify-content-center">
+            <div class="row row-cols-2  py-2 mb-4 gy-4 width-max-proyect align-items-center justify-content-center">
                 <div class="d-flex gap-4 align-items-center">
                     <img style="height: 42px;width:42px" src="https://elabra.pe/wp-content/uploads/2023/06/cerca-delugar.svg" alt="">
                     <p class="mb-0">A sólo 10 minutos de la plaza
@@ -286,7 +286,7 @@
     include_once 'footer.php';
     ?>
     <!-- modal slider -->
-    <div id="container-modal-swiper" class="modal-swiper d-none-swiper container-xxl">
+    <div id="container-modal-swiper" class="modal-swiper d-none-swiper container-fluid">
         <span class="position-absolute  end-close " id="close-modal"><i class="text-white fs-3 fa-regular fa-circle-xmark"></i></span>
         <div class="container-md mid-slider">
             <div class="swiper-modal">

@@ -147,7 +147,7 @@ a {
   cursor: pointer;
   position: relative;
   /*width: 358px;*/
-  height: 540px; /*620*/
+  height: 620px; /*620*/
   transition: all 0.6s ease-in-out;
 }
 

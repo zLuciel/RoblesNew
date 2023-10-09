@@ -5,6 +5,7 @@
     width: 367px;
     height: max-content ;
     z-index: 4;
+    top: 0 !important;
     bottom: 12px !important;
     right: 40px !important;
 }

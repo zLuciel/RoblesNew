@@ -154,7 +154,8 @@
                         <i style="font-size: 4rem;" class="fa-brands fa-youtube text-white"></i>
                     </div>
                 </div>
-                <div class="order-md-first">
+                
+                <div class="order-md-first order-xl-last order-lg-last">
                     <h2 style="font-weight: 700;" class="family-700-one color-green-2">Increase Your Revenue bY
                         Attacting new Visitor. Builds Brand Loyality And Width Hot Offers &
                         Promotion

@@ -19,12 +19,14 @@
     <script src="https://kit.fontawesome.com/88c0a098dd.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="position-relative">
+<body >
 
     <?php
     include_once 'header.php';
     ?>
+    <div class="position-relative"  style="border: 1px solid red;">
 
+   
     <main class="container-fluid text-center p-5 bg-main">
         <div class="position-absolute top-0 video-proyect-main">
             <video src="assets/video/banner.mp4" autoplay muted loop></video>
@@ -277,10 +279,10 @@
     </section>
     <!-- CONTACT FORM -->
     <?php
-    $class = "position-fixed bottom-0 end-0  d-xl-flex d-md-none d-none";
+    $class = "position-fixed d-xl-flex d-md-none d-none";
     include_once 'components/formulario.php';
     ?>
-
+ </div>
     <!-- footer -->
     <?php
     include_once 'footer.php';

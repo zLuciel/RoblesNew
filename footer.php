@@ -1,4 +1,4 @@
-<footer class="cotainer-fluid">
+<footer class="cotainer-fluid position-relative">
   <div class="container-xl  text-white mb-5">
     <!-- grid footer -->
     <div class="row row-cols-xl-3 row-cols-lg-1 row-cols-md-1 g-5 justify-content-xl-between justify-content-lg-center ">

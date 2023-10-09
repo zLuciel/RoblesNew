@@ -131,7 +131,6 @@
           <div class="swiper-pagination noticias"></div>
         </div>
 
-
       </div>
     </div>
     </div>
@@ -190,8 +189,8 @@
     const swiperNoticias = new Swiper('.swiper-noticias', {
       // Optional parameters
       loop: true,
-      spaceBetween: 5,
-      slidesPerView: 2,
+      spaceBetween: 10,
+      slidesPerView: 1,
       // Navigation arrows
       pagination: {
         el: '.swiper-pagination',
@@ -204,11 +203,11 @@
         },
         // when window width is >= 480px
         600: {
-          slidesPerView: 2,
+          slidesPerView: 2.5,
         },
         // when window width is >= 640px
         1000: {
-          slidesPerView: 2,
+          slidesPerView: 2.2,
         }
       }
     });

@@ -1,4 +1,4 @@
-<header  class="header position-sticky  bg-terce top-0  container-fluid w-100  d-flex flex-column justify-content-between align-items-center">
+<header  class="header position-sticky  bg-white top-0  container-fluid w-100  d-flex flex-column justify-content-between align-items-center">
   <div class="container-xl d-flex   justify-content-between align-items-center index-header">
     <img src="https://gruporobles.com.pe/img/logo/logo-color.svg" alt="logo-robles">
     <!-- btn hamburger -->
@@ -8,26 +8,26 @@
     <!-- navegacion pc -->
     <nav class="d-xxl-flex d-xl-flex d-md-flex  d-none  justify-content-center align-items-center gap-5">
       <ul class="list-header  list-group list-group-horizontal-xl  list-group-horizontal-md list-group-horizontal-xxl ">
-        <li><a href="index.php" class="text-white">Inicio</a></li>
-        <li id="view-propiedades" class="view-propiedades"><a href="proyectos.php" class="text-white">Proyectos <i class="fa-solid fa-angle-down"></i></a></li>
-        <li><a href="conocenos.php" class="text-white">Conócenos</a></li>
-        <li><a href="newBlog.php" class="text-white">Blog</a></li>
+        <li><a href="index.php" class="text-dark">Inicio</a></li>
+        <li id="view-propiedades" class="view-propiedades"><a href="proyectos.php" class="text-dark">Proyectos <i class="fa-solid fa-angle-down"></i></a></li>
+        <li><a href="conocenos.php" class="text-dark">Conócenos</a></li>
+        <li><a href="newBlog.php" class="text-dark">Blog</a></li>
       </ul>
       <a href="contactanos.php" style="text-decoration: none;color:black" 
       type="button" class="btn raleway-bold py-2 btn-link 
-      border border-1 border-white bg-white">Contáctanos</a>
+      border border-1 border-dark bg-white">Contáctanos</a>
     </nav>   
   </div> 
 
   <!-- mobil -->
-  <nav id="list-navegacion-header"  class="list-header-movil position-absolute no-view flex-column justify-content-center w-100 p-4  gap-4">
-      <ul class="list-header list-group list-group-horizontal-xl  list-group-horizontal-md list-group-horizontal-xxl ">
-        <li><a href="#">Inicio</a></li>
-        <li id="view-propiedades" class="view-propiedades"><a href="proyecto.php">Proyectos <i class="fa-solid fa-angle-down"></i></a></li>
-        <li><a href="#">Conócenos</a></li>
-        <li><a href="newBlog.php">Blog</a></li>
+  <nav id="list-navegacion-header"  class="list-header-movil position-absolute no-view flex-column justify-content-center w-100 px-5 py-4   gap-4">
+      <ul class="list-header  gap-4 list-group list-group-horizontal-xl  list-group-horizontal-md list-group-horizontal-xxl ">
+        <li><a class="text-dark fs-2" href="#">Inicio</a></li>
+        <li><a class="text-dark fs-2" href="proyecto.php">Proyectos <i class="fa-solid fa-angle-down"></i></a></li>
+        <li><a class="text-dark fs-2" href="#">Conócenos</a></li>
+        <li><a class="text-dark fs-2" href="newBlog.php">Blog</a></li>
       </ul>
-      <button style="text-decoration: none;color:black" type="button" class="btn py-2 btn-link border border-1 border-dark">Contáctanos</button>
+      <button style="text-decoration: none;color:black;width:max-content" type="button" class="btn py-2 btn-link border border-1 border-dark">Contáctanos</button>
     </nav>
   <!-- Modal proyectos -->
   <div id="modal-header" class="container-xxl container-modal bg-white">

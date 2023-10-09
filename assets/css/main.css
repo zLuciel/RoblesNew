@@ -349,15 +349,7 @@ footer {
     opacity: 1;
   }
 }
-@keyframes animateHeaderReverse {
-  from {
-    opacity: 1;
-    overflow: hidden;
-  }
-  to {
-    opacity: 0;
-  }
-}
+
 .container-modal:hover {
   overflow: auto;
 }
@@ -442,7 +434,7 @@ footer {
   }
 
   .nav-mobil {
-    background: linear-gradient(180deg, #00ad6e 0%, #523695 134.86%);
+    background: white;
     height: 100vh;
     display: flex;
     transform: translateX(0%);

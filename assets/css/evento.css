@@ -1,0 +1,54 @@
+.bg-main-evento {
+  height: 82vh;
+  width: 100%;
+}
+.container-img-absolute > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container-img-absolute {
+  height: 100%;
+  right: 0;
+  bottom: 0;
+}
+.gradient-event {
+  height: 100%;
+  border-bottom-left-radius: 200px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.575) 0%, #000000ab 100%),
+    url(https://i.pinimg.com/originals/a0/c5/81/a0c5813a628e0d2372592a6c89d6077a.jpg)
+      center center/cover no-repeat fixed;
+}
+
+.gradient-event::before {
+  z-index: -1;
+  position: absolute;
+  top: 0px;
+  left: -20px;
+  border-bottom-left-radius: 200px;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    to top,
+    rgba(12, 92, 1, 0.774) 0%,
+    #065510dc 100%
+  );
+}
+.img-card{
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.fecha-card{
+    box-shadow: 0px 10px 40px -5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    text-align: center;
+    right: -16px;
+    bottom: -20px !important;
+}
+.fecha-card > p{
+    font-size: 0.8rem;
+}
+.border-cards{
+    border-bottom: 2px solid #005c53b0;
+}

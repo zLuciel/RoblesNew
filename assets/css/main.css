@@ -124,7 +124,7 @@ a {
   color: #00968b;
 }
 .color-green {
-  background: #00968b;
+  background: #00968b !important;
 }
 .main h1 {
   margin-bottom: 50px;
